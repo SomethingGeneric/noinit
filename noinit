@@ -8,4 +8,4 @@ echo "Welcome to $(uname -r) on $(cat /etc/issue)"
 
 /usr/bin/busybox mdev -s &
 
-/usr/bin/busybox getty /dev/tty1
+/usr/bin/busybox getty /dev/tty1 &

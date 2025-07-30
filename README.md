@@ -9,6 +9,7 @@ Who needs a system anyways
 
 ## Depends:
 * `neofetch`
+* `bash`
 * GNU `make`
 * GNU `sed`
 * BusyBox
