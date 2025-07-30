@@ -4,6 +4,8 @@ set -e
 mount -t proc proc /proc -o nosuid,noexec,nodev
 mount -t sysfs sys /sys -o nosuid,noexec,nodev
 cat /etc/hostname > /proc/sys/kernel/hostname
-echo "Welcome to NoInit on $(cat /etc/issue)"
-neofetch
-read
+echo "Welcome to $(uname -r) on $(cat /etc/issue)"
+
+/usr/bin/busybox mdev -s &
+
+/usr/bin/busybox getty /dev/tty1

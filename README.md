@@ -11,4 +11,5 @@ Who needs a system anyways
 * `neofetch`
 * GNU `make`
 * GNU `sed`
+* BusyBox
 * GNU-like coreutils
